@@ -1,0 +1,30 @@
+nav {
+    height: 100%;
+    border-bottom: 1px solid #e9ecef;
+    width: 100%;
+}
+.side-nav-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+input#navbarForm {
+    border: none;
+    outline-style:none;
+    padding-left: 10px;
+    color: lightgray;
+}
+.profile-logo.dropdown {
+    display: flex;
+    align-items: center;
+    cursor:pointer;
+    left: 500px;
+    gap: 35px;
+}
+.menu-option{
+    display: flex;
+    align-items: center;
+}

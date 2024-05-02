@@ -1,0 +1,75 @@
+
+<div class="side-bar">
+    <div class="brand-logo">
+    <img src="assets/images/banner2_iii.png" alt="user" width="60%" >
+   </div>
+<div class="side-nav-content">
+    <ul class="nav-list" [ngClass]="{'nav-list-open':sideNavStatus}">
+        <p class="side-nav-title" [style.display]="sideNavStatus ? 'block' : 'none'">MAIN</p>
+        <li class="nav-list-item">
+            <i class="fa-solid fa-house" style="color: #6571ff;"></i>
+            <span>
+                <a routerLink="home" style="color: #080808;">Dashboard</a>
+            </span>
+        </li>
+        <p class="side-nav-title" [style.display]="sideNavStatus ? 'block' : 'none'">WEB APPS</p>
+
+        <li class="nav-list-item">
+            <i class="fa-solid fa-line-chart"></i>
+            <span>
+                <a routerLink="about">Inventory</a>
+            </span>
+        </li>
+        <li class="nav-list-item">
+            <i class="fa-solid fa-box"></i>
+            <span>
+                <a routerLink="service">Product</a>
+            </span>
+        </li>
+        <li class="nav-list-item">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <span>
+                <a  routerLink="">Order</a>
+            </span>
+        </li>
+        <p class="side-nav-title" [style.display]="sideNavStatus ? 'block' : 'none'">COMPONENT</p>
+        <li class="nav-list-item ">
+            <i class="fa-solid fa-gear"></i>
+            <span>
+                <a  routerLink="service">Setting</a>
+            </span>
+        </li>
+        <li class="nav-list-item">
+            <i class="fa-solid fa-circle-info"></i>
+            <span>
+                <a  routerLink="">About</a>
+            </span>
+        </li>
+        <li class="nav-list-item ">
+            <i class="fa-solid fa-phone "></i>
+            <span>
+                <a  routerLink="">Contact</a>
+            </span>
+        </li>
+        <p class="side-nav-title" [style.display]="sideNavStatus ? 'block' : 'none'">PAGES</p>
+        <li class="nav-list-item ">
+            <i class="fa-solid fa-gear"></i>
+            <span>
+                <a  routerLink="">Social Pages</a>
+            </span>
+        </li>
+        <li class="nav-list-item">
+            <i class="fa-solid fa-circle-info"></i>
+            <span>
+                <a  routerLink="">Authintication</a>
+            </span>
+        </li>
+        <li class="nav-list-item ">
+            <i class="fa-solid fa-phone "></i>
+            <span>
+                <a routerLink="">Error</a>
+            </span>
+        </li>
+    </ul>
+</div>
+</div>

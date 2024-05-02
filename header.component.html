@@ -1,0 +1,52 @@
+<nav class="navbar navbar-expand navbar-white bg-white px-2">
+  <div class="menu-option">
+    <div class="side-nav-button p-2 me-3 text-light" (click)="SideNavToggle()">
+        <i class="fa-solid fa-bars" style="color: black;"></i>
+    </div>
+    <div class="navbar-collapse">
+        <i class="fa-solid fa-search" style="color: gray;"></i>
+        <input type="text" id="navbarForm" placeholder="Search here...">
+    </div>
+  </div>
+    <div class="profile-logo dropdown">
+        <div>
+            <img [src]="imageUrl" alt="Dynamic Image" width="22px">
+            <span style="padding-left: 5px; font-weight: 500;">English</span>
+        </div>
+        <i class="fa-solid fa-bell" data-bs-toggle="dropdown"></i>
+        <ul class="dropdown-menu dropdown-menu-light">
+            <a href="" class="dropdown-item d-flex align-items-center py-2">
+                <div class="me-3"><img src="assets/images/profile.jpg" alt="user" class="wd-50 ht-50 rounded-circle"></div>
+                <div class="d-flex justify-content-between flex-grow-1">
+                    <div class="me-4">
+                        <p>Leonardo Payne</p>
+                        <p class="tx-12 text-muted">Project status</p>
+                    </div>
+                    <p class="tx-12 text-muted">2 min ago</p>
+                </div>
+            </a>
+            <a href="" class="dropdown-item d-flex align-items-center py-2">
+                <div class="me-3">
+                    <img src="assets/images/us.svg" alt="user" class="wd-30 ht-30 rounded-circle">
+                </div>
+                <div class="d-flex justify-content-between flex-grow-1">
+                    <div class="me-4">
+                        <p>Leonardo Payne</p>
+                        <p class="tx-12 text-muted">Project status</p>
+                    </div>
+                    <p class="tx-12 text-muted">2 min ago</p>
+                </div>
+            </a>
+        </ul>
+        <i class="fa-regular fa-envelope"></i>
+        <i class="fa-regular fa-bell"></i>
+        <img [src]="imageUr2" class="dropdown-toggle rounded-circle" data-bs-toggle="dropdown" alt="Image" width="25px"
+            height="25px">
+        <ul class="dropdown-menu dropdown-menu-light">
+            <li><a class="dropdown-item" href="#">Sign up </a></li>
+            <li><a class="dropdown-item" href="#">Login</a></li>
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><a class="dropdown-item" href="#">Log Out</a></li>
+        </ul>
+    </div>
+</nav>
